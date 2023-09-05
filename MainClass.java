@@ -15,7 +15,6 @@ public class MainClass {
         for (Cat cat:cats) {
             if (plate.getFood() - cat.getAppetite()>=0) {
                 plate.setFood(plate.getFood() - cat.getAppetite());
-                plate.info();
                 cat.eat();
             }
             cat.getCat();
